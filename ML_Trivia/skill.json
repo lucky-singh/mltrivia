@@ -1,0 +1,70 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "serverlessrepo-ml-trivia-acloudgurualexa-1WZ1KAB4799OC",
+          "sourceDir": "lambda\\us-east-1_serverlessrepo-ml-trivia-acloudgurualexa-1WZ1KAB4799OC"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE",
+            "minimumTemplateVersion": "1.0"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "http://mltrivia.s3-website-us-east-1.amazonaws.com"
+        },
+        "en-GB": {
+          "privacyPolicyUrl": "http://mltrivia.s3-website-us-east-1.amazonaws.com"
+        }
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": true,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "ML Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e48c/fd5253f909274a53b4200874578cb233/APP_ICON?versionId=tGx5yTxKhzqTJDw8Wx577XYtxA.PzEPX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554297656&Signature=UzsZQCkSz%2FxpzIdgxtwFDiOWDNk%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/69d8/50fe9339c9b44a9eb7dd187a7443ae76/APP_ICON_LARGE?versionId=9Sp8du3P0EWht_EXiI5j9C_kPYHhmKxr&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554297656&Signature=TFEitYwKbdu9Dz0ngh763TRmby8%3D",
+          "summary": "Become Machine Learning expert by playing",
+          "description": "Become Machine Learning expert by playing",
+          "examplePhrases": [
+            "Alexa, open m. l. trivia",
+            "Alexa, ask m. l. trivia for high score"
+          ],
+          "keywords": [
+            "ai",
+            "ml"
+          ]
+        },
+        "en-GB": {
+          "name": "ML Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9ae6/94687ef0300e47f3a1b5da286e19385b/APP_ICON?versionId=WLetZz3VZavu0FdW23NV_xruEz_U_DYW&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554297656&Signature=NCnaQkv81FY44XtR8W3o7WwF%2FgQ%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/effa/80aced7defc7440eb5f37ba99d52ae88/APP_ICON_LARGE?versionId=xTpMpxUHgnuDTlyyqtRJHFV8pQZ15Ee4&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554297656&Signature=TeLqCccvft%2BQc5DGsRNNvd7ybeU%3D",
+          "summary": "Become Machine Learning expert by playing quiz",
+          "description": "Become Machine Learning expert by playing",
+          "examplePhrases": [
+            "Alexa, open m. l. trivia",
+            "Alexa, ask m. l. trivia for high score",
+            "stop"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "not applicable",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    }
+  }
+}
