@@ -71,7 +71,7 @@
           "slots": [
             {
               "name": "name",
-              "type": "AMAZON.GB_FIRST_NAME"
+              "type": "AMAZON.FirstName"
             }
           ],
           "samples": [
@@ -139,5 +139,5 @@
       "types": []
     }
   },
-  "version": "7"
+  "version": "1"
 }

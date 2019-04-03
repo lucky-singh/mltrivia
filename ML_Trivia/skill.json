@@ -22,6 +22,9 @@
         },
         "en-GB": {
           "privacyPolicyUrl": "http://mltrivia.s3-website-us-east-1.amazonaws.com"
+        },
+        "en-IN": {
+          "privacyPolicyUrl": "http://mltrivia.s3-website-us-east-1.amazonaws.com"
         }
       },
       "allowsPurchases": false,
@@ -34,8 +37,8 @@
       "locales": {
         "en-US": {
           "name": "ML Trivia",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e48c/fd5253f909274a53b4200874578cb233/APP_ICON?versionId=tGx5yTxKhzqTJDw8Wx577XYtxA.PzEPX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554297656&Signature=UzsZQCkSz%2FxpzIdgxtwFDiOWDNk%3D",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/69d8/50fe9339c9b44a9eb7dd187a7443ae76/APP_ICON_LARGE?versionId=9Sp8du3P0EWht_EXiI5j9C_kPYHhmKxr&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554297656&Signature=TFEitYwKbdu9Dz0ngh763TRmby8%3D",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e48c/fd5253f909274a53b4200874578cb233/APP_ICON?versionId=tGx5yTxKhzqTJDw8Wx577XYtxA.PzEPX&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554396327&Signature=NOJc74cV9sTYl4xFx2t9RpuTrS0%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/69d8/50fe9339c9b44a9eb7dd187a7443ae76/APP_ICON_LARGE?versionId=9Sp8du3P0EWht_EXiI5j9C_kPYHhmKxr&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554396327&Signature=Mk29fdyFcW4V5QgxoaCwwgQZmQM%3D",
           "summary": "Become Machine Learning expert by playing",
           "description": "Become Machine Learning expert by playing",
           "examplePhrases": [
@@ -47,10 +50,30 @@
             "ml"
           ]
         },
+        "en-IN": {
+          "name": "ML Trivia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/303c/66486bc5d37f44d88b8249669e11cd48/APP_ICON?versionId=YdMIM.EdWSN4isz4v.FknNaPL4NSiGR3&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554396327&Signature=ZYPNc1k9yrMHBpAC4ymxtZdAb8c%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/858c/3ae2befa3f3942469cb2f7b9b504189e/APP_ICON_LARGE?versionId=aaER9uk0I0hGnh6TH8fZoOKrWSyAQv2S&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554396327&Signature=9LvPB4y5LDSaUXpkM570nFFZRgM%3D",
+          "summary": "Become Machine Learning expert by playing quiz",
+          "description": "Become Machine Learning expert by playing quiz",
+          "examplePhrases": [
+            "Alexa, open m. l. trivia",
+            "Alexa, ask m. l. trivia for high score",
+            "Start new game"
+          ],
+          "keywords": [
+            "ai",
+            "ml",
+            "artificial",
+            "intelligence",
+            "machine",
+            "learning"
+          ]
+        },
         "en-GB": {
           "name": "ML Trivia",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9ae6/94687ef0300e47f3a1b5da286e19385b/APP_ICON?versionId=WLetZz3VZavu0FdW23NV_xruEz_U_DYW&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554297656&Signature=NCnaQkv81FY44XtR8W3o7WwF%2FgQ%3D",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/effa/80aced7defc7440eb5f37ba99d52ae88/APP_ICON_LARGE?versionId=xTpMpxUHgnuDTlyyqtRJHFV8pQZ15Ee4&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554297656&Signature=TeLqCccvft%2BQc5DGsRNNvd7ybeU%3D",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9ae6/94687ef0300e47f3a1b5da286e19385b/APP_ICON?versionId=WLetZz3VZavu0FdW23NV_xruEz_U_DYW&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554396327&Signature=xCv1a61r%2B%2FIwPvP0Mp9Jls9eLCQ%3D",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/effa/80aced7defc7440eb5f37ba99d52ae88/APP_ICON_LARGE?versionId=xTpMpxUHgnuDTlyyqtRJHFV8pQZ15Ee4&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1554396327&Signature=ssC1iqLBkq7dRTqFFypLIlVVEzs%3D",
           "summary": "Become Machine Learning expert by playing quiz",
           "description": "Become Machine Learning expert by playing",
           "examplePhrases": [

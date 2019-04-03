@@ -2,15 +2,18 @@
   "deploy_settings": {
     "default": {
       "skill_id": "amzn1.ask.skill.82fe27af-0fd7-4d1d-83f0-eaab8ae89d10",
-      "was_cloned": false,
+      "was_cloned": true,
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "3ab04894af745588f2efce16e597ec0a"
+          "eTag": "e08e424d7dc34b3a844156b24c7d5d56"
         },
         "interactionModel": {
           "en-US": {
             "eTag": "81de6ea92ef8940d78718eee028c2f85"
+          },
+          "en-IN": {
+            "eTag": "9f60e9e0dad5266be1be802dac16178f"
           },
           "en-GB": {
             "eTag": "60d1bfbd6094ea7294e866f1451256b0"
@@ -18,15 +21,15 @@
         },
         "lambda": [
           {
+            "arn": "arn:aws:lambda:us-east-1:066818260407:function:serverlessrepo-ml-trivia-acloudgurualexa-1WZ1KAB4799OC",
+            "awsRegion": "us-east-1",
+            "functionName": "serverlessrepo-ml-trivia-acloudgurualexa-1WZ1KAB4799OC",
             "alexaUsage": [
               "custom/default"
             ],
-            "arn": "arn:aws:lambda:us-east-1:066818260407:function:serverlessrepo-ml-trivia-acloudgurualexa-1WZ1KAB4799OC",
-            "awsRegion": "us-east-1",
+            "revisionId": "00858c1b-d5e9-4b2c-9306-3baf9ecf6aea",
             "codeUri": "lambda/us-east-1_serverlessrepo-ml-trivia-acloudgurualexa-1WZ1KAB4799OC",
-            "functionName": "serverlessrepo-ml-trivia-acloudgurualexa-1WZ1KAB4799OC",
             "handler": "index.handler",
-            "revisionId": "cc5b9857-fc5d-44a6-8d85-133c7329c79a",
             "runtime": "nodejs8.10"
           }
         ]

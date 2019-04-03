@@ -464,7 +464,24 @@ const NameIntent = {
         'score' : {S: score},
       }
     };
-    
+
+    var docClient = new AWS.DynamoDB.DocumentClient();
+
+    var scores;
+    docClient.query(params, function (err, data) {
+      if (err) {
+        console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+      } else {
+        console.log("Query succeeded.");
+        data.Items.forEach(function (item) {
+          score = score.parseInt() + item.score.parseInt();
+          console.log(" -", item.name + ": " + item.score);
+        });
+      }
+    });
+
+    score = score.toString();
+
     ddb.putItem(params, function(err,data) {
       if (err) {
         console.log(err);
@@ -472,13 +489,9 @@ const NameIntent = {
         console.log('Success!');
       }
     });
-    console.log(
-      `Test logging: ${
-        handlerInput.requestEnvelope.request.reason
-      }`
-    );
+
     return handlerInput.responseBuilder
-      .speak('Thanks ' + name + '! Your score has been added to the leaderboard. Thanks for playing!')
+      .speak('Thanks ' + name + '! Your score has been added to the leader board. Thanks for playing!')
       .getResponse();
       
   },
